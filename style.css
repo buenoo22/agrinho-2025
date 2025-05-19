@@ -5,6 +5,7 @@
     --primary-color : #026773;
     --secundary-color : #3ca6a6;
     --text-color : #024959;
+    --background-color : #3ca6a6;
     --font-body : "chocoloate clsassical sans", serif;
     --font-titulo : "Rakkas", serif;
 }
@@ -15,4 +16,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font-body);
+}
+
+/* CORPO DA PAGINA */
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
 }
