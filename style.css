@@ -1,0 +1,18 @@
+
+
+/* VARIAVEIS */
+:root{
+    --primary-color : #026773;
+    --secundary-color : #3ca6a6;
+    --text-color : #024959;
+    --font-body : "chocoloate clsassical sans", serif;
+    --font-titulo : "Rakkas", serif;
+}
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-body);
+}
